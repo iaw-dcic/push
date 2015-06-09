@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Chat con Ajax Push</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="css/estilo.css" type="text/css" rel="stylesheet"/>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/push.js"></script>
+	</head>
+	<body>
+		<div class="titulo">
+			<h1>Chat con Ajax Push</h1>
+		</div>
+		<form class="send" action="" method="get" onsubmit="return send(this);">
+			<fieldset>
+			  	<legend>Agregar un Mensaje</legend>
+			  	<legend>Usuario:</legend>
+				<input type="text" name="user" id="user"/> 
+			  	<legend>Mensaje:</legend>
+				<input type="text" name="word" id="word"/><br/>			 
+	      		<input type="submit" name="submit" value="Enviar" />
+			</fieldset>
+		</form>
+		<div id="content" class="contenido"></div>
+	</body>
+</html>

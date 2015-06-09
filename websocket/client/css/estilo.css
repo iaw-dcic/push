@@ -1,0 +1,8 @@
+#messages {
+    height:400px; 
+    overflow:auto;
+}
+
+#users {
+    overflow:auto;
+}
